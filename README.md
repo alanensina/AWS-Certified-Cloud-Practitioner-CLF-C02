@@ -6,7 +6,7 @@
   * [Amazon CloudFront](#amazon-cloudFront)
   * [Amazon Cognito](#amazon-cognito)
   * [Amazon Kendra](#amazon-kendra)
-  * [Amazon Lex](#amazon-Lex)
+  * [Amazon Lex](#amazon-lex)
   * [Amazon Lightsail ](#amazon-Lightsail)
   * [Amazon Personalize](#amazon-personalize)
   * [Amazon Redshift](#amazon-redshift)
@@ -80,7 +80,7 @@ O Amazon Cognito é um serviço que fornece cadastro de usuário, login e contro
 
 O Amazon Kendra é um serviço que fornece uma busca empresarial altamente precisa e fácil de usar, baseada em aprendizado de máquina, permitindo que os usuários encontrem informações dentro de grandes volumes de conteúdo espalhados pela empresa.
 
-<a name="amazon-Lex"></a>
+<a name="amazon-lex"></a>
 # Amazon Lex
 
 O serviço AWS que atende aos requisitos da empresa que quer criar um chatbot e integrá-lo à sua aplicação web atual é o Amazon Lex. Este serviço ajuda os clientes a construírem interfaces de conversação usando voz e texto, permitindo criar chatbots que entendem a linguagem natural e respondem às solicitações dos usuários. 
@@ -321,21 +321,29 @@ O AWS WAF é um firewall de aplicação web que ajuda a proteger aplicativos web
 
 AWS Well-Architected Framework promove as melhores práticas de arquitetura na AWS Cloud para projetar e operar sistemas confiáveis, seguros, eficientes e econômicos. AWS Well-Architected Framework é um conjunto de diretrizes e melhores práticas que ajudam o usuário a avaliar e melhorar a arquitetura de suas aplicações e workloads na AWS. O AWS Well-Architected Framework consiste em cinco pilares: excelência operacional, segurança, confiabilidade, eficiência de desempenho e otimização de custos. Cada pilar fornece um conjunto de princípios de design, perguntas e melhores práticas que ajudam o usuário a alcançar os resultados desejados para seus sistemas.
 
-- A otimização da arquitetura é a melhor prática para governança de custos. A otimização da arquitetura é o processo de projetar e implementar soluções AWS que sejam eficientes, escaláveis e econômicas. Ao usar serviços específicos da AWS para melhorar a eficiência e reduzir custos, a empresa está seguindo a prática de otimização da arquitetura. Algumas das técnicas para otimização da arquitetura incluem usar o tamanho e tipo certos de recursos, aproveitar a elasticidade e escalabilidade, escolher a classe de armazenamento mais adequada e usar serviços sem servidor e gerenciados.
+- Excelência operacional
 
-- Criar documentação anotada é o princípio de design incluído no pilar de excelência operacional do AWS Well-Architected Framework. Significa documentar sua carga de trabalho para que a equipe entenda a arquitetura, como operar a carga de trabalho e como ela entrega valor aos clientes.
+O pilar Excelência operacional se concentra na execução e monitoramento sistemas e na melhoria contínua de processos e procedimentos. Os principais tópicos incluem automação de alterações, reação a eventos e definição de padrões para gerenciar as operações diárias.
 
-- O pilar da excelência operacional foca na capacidade de executar cargas de trabalho de forma eficaz, obter insights sobre operações e melhorar continuamente os processos e procedimentos de suporte.
+- Segurança
 
-- O pilar do AWS Well-Architected Framework que é apoiado pelos objetivos de proteger informações, sistemas e ativos da AWS Cloud enquanto realiza avaliações de risco e tarefas de mitigação é segurança. Segurança é a capacidade de proteger informações, sistemas e ativos enquanto entrega valor de negócio por meio de avaliações de risco e estratégias de mitigação. O pilar de segurança cobre tópicos como gerenciamento de identidade e acesso, proteção de dados, proteção de infraestrutura, controles de detecção, resposta a incidentes e conformidade.
+O pilar Segurança se concentra na proteção de informações e sistemas. Os principais tópicos incluem confidencialidade e integridade de dados, gerenciamento de permissões de usuário e estabelecimento de controles para detectar eventos de segurança.
 
-- A perspectiva de governança do AWS Cloud Adoption Framework (AWS CAF) conecta tecnologia e negócios. Esta perspectiva foca no alinhamento da estratégia e processos de TI com a estratégia e objetivos de negócios, bem como na gestão do orçamento de TI, riscos e conformidade. As capacidades da perspectiva de governança são gerenciamento de portfólio, gerenciamento de desempenho de negócios e governança de TI. As outras perspectivas do AWS CAF (operações, pessoas e segurança) não conectam diretamente tecnologia e negócios da mesma forma.
+- Confiabilidade
 
-- Um dos princípios de eficiência de custo relacionados à AWS Cloud é ajustar o tamanho dos serviços com base nos requisitos de capacidade. Isso significa escolher o tipo e tamanho mais apropriados de recursos da AWS para atender às necessidades de desempenho e escalabilidade das aplicações, evitando provisionamento excessivo ou insuficiente. Ao ajustar o tamanho dos serviços, os usuários podem otimizar os custos e os benefícios de usar a AWS Cloud.
+O pilar da confiabilidade se concentra nos workloads que executam as funções pretendidas e na recuperação rápida de falhas em atender demandas. Os principais tópicos incluem projeto de sistemas distribuídos, planejamento de recuperação e requisitos adaptação a mudanças.
 
-- Os princípios de design que apoiam o pilar de confiabilidade do AWS Well-Architected Framework são: escalabilidade automática para atender à demanda e recuperação automática de falhas. Esses princípios ajudam os usuários a projetar sistemas que podem lidar com mudanças na carga, evitar interrupções e retomar operações normais rapidamente. Escalar automaticamente para atender à demanda significa ajustar a capacidade do sistema com base na carga de trabalho atual e antecipada, usando serviços como AWS Auto Scaling, Amazon EC2 e AWS Lambda. Recuperar automaticamente de falhas significa detectar e resolver problemas, usando serviços como Amazon CloudWatch, AWS CloudFormation e AWS CloudTrail.
+- Eficiência de performance
 
-- Projetar componentes acoplados de forma frouxa é um princípio de design que deve ser considerado ao arquitetar na AWS Cloud. O acoplamento frouxo é uma maneira de projetar sistemas para reduzir interdependências e minimizar o impacto das mudanças. O acoplamento frouxo permite que os componentes interajam entre si por meio de interfaces bem definidas, em vez de referências diretas. Isso reduz o risco de falhas e erros se propagarem pelo sistema e permite maior escalabilidade, disponibilidade e manutenção.
+O pilar de eficiência de performance se concentra na alocação estruturada e simplificada de recursos de TI e computação. Os principais tópicos incluem seleção dos tipos e tamanhos certos dos recursos otimizados para os requisitos de workload, monitoramento de performance e manutenção da eficiência à medida que as necessidades comerciais evoluem.
+
+- Otimização de custos
+
+O pilar de otimização de custos se concentra em evitar custos desnecessários. Os principais tópicos incluem compreensão dos gastos ao longo do tempo e controle da alocação de fundos, seleção do tipo e quantidade certa de recursos e dimensionamento para atender às necessidades de negócios sem gastos excessivos.
+
+- Sustentabilidade
+
+O pilar de sustentabilidade se concentra em minimizar os impactos ambientais da execução de workloads em nuvem. Os principais tópicos incluem um modelo de responsabilidade compartilhada para sustentabilidade, compreensão do impacto e maximização da utilização para minimizar os recursos necessários e reduzir os impactos posteriores. 
 
 <a name="conceitos-aws"></a>
 # Conceitos AWS
